@@ -1,6 +1,6 @@
 # Utilizando image classification e Augmented AI em imagens de raio-x para detecção de COVID-19 – Part 2
 
-Na parte 1 dessa série de blogposts, utilizamos o algoritmo builtin da AWS, image classification, para classificar imagens de exames de raios-X de pacientes buscando por indícios de Covid-19. Embora nosso classificador tenha demonstrado um alto valor de confiabilidade com as imagens testadas, podemos ter imagens em que o modelo não tenha uma acurácia aceitável e uma validação de um especialista se faz necessário. 
+Na parte 1 dessa série de blogposts(https://aws.amazon.com/pt/blogs/aws-brasil/utilizando-image-classification-em-imagens-de-raio-x-para-deteccao-de-covid-19-parte1/), utilizamos o algoritmo builtin da AWS, image classification, para classificar imagens de exames de raios-X de pacientes buscando por indícios de Covid-19. Embora nosso classificador tenha demonstrado um alto valor de confiabilidade com as imagens testadas, podemos ter imagens em que o modelo não tenha uma acurácia aceitável e uma validação de um especialista se faz necessário. 
 
 A validação humana é um caso comum em problemas que envolvem machine learning, para isso a AWS conta com o serviço Amazon Augmented AI(Amazon A2I), que provê as features necessárias para atribuir tarefas a um grupo de usuários que serão responsáveis pela tomada de decisão.
 
